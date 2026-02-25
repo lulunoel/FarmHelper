@@ -2,9 +2,8 @@ name: Build FarmHelper
 
 on:
   push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
+    tags:
+      - 'v*'  # Se déclenche uniquement quand tu push un tag genre v1.0.0
 
 jobs:
   build:
@@ -26,8 +25,17 @@ jobs:
       - name: Build with Gradle
         run: ./gradlew build
 
-      - name: Upload JAR artifact
-        uses: actions/upload-artifact@v4
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
         with:
-          name: FarmHelper
-          path: build/libs/*.jar
+          name: "FarmHelper ${{ github.ref_name }}"
+          body: |
+            ## 🌾 FarmHelper ${{ github.ref_name }}
+            
+            ### 📦 Installation
+            1. Télécharge le `.jar` ci-dessous
+          files: build/libs/*.jar
+          draft: false
+          prerelease: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
