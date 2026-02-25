@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "fr.lulunoel2016.farmhelper.mixin.client",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "ChatRecapMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 0
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}

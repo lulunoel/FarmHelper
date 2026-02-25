@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "farmhelper",
+  "version": "${version}",
+  "name": "FarmHelper",
+  "description": "FarmHelper",
+  "authors": ["lulunoel2016"],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/farmhelper/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "fabric-datagen": [
+      "fr.lulunoel2016.farmhelper.client.FarmHelperDataGenerator"
+    ],
+    "client": [
+      "fr.lulunoel2016.farmhelper.client.FarmHelperClient"
+    ],
+    "main": [
+      "fr.lulunoel2016.farmhelper.FarmHelper"
+    ]
+  },
+  "mixins": [
+    "farmhelper.mixins.json",
+    {
+      "config": "farmhelper.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
