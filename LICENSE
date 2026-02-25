@@ -1,0 +1,100 @@
+FarmHelper Community License (FCL) v1.0
+Copyright (c) 2026 lulunoel
+All rights reserved on authorship and ownership.
+
+════════════════════════════════════════════════════════════════
+                        PRÉAMBULE
+════════════════════════════════════════════════════════════════
+
+Cette licence a pour objectif de permettre à la communauté de
+bénéficier librement de ce projet, d'y contribuer et de
+l'améliorer, tout en protégeant les droits d'auteur et
+l'identité du créateur original : lulunoel.
+
+════════════════════════════════════════════════════════════════
+                   CE QUE VOUS POUVEZ FAIRE
+════════════════════════════════════════════════════════════════
+
+✔  UTILISER ce logiciel à titre personnel ou communautaire,
+   sans restriction, gratuitement.
+
+✔  MODIFIER le code source pour vos besoins personnels
+   ou pour proposer des améliorations au projet original.
+
+✔  DISTRIBUER des copies de ce logiciel, modifiées ou non,
+   à condition de respecter les obligations ci-dessous.
+
+✔  SOUMETTRE des suggestions, rapports de bugs, et
+   pull requests au projet original sur GitHub.
+
+✔  FORK ce projet sur GitHub pour expérimenter et proposer
+   des modifications, dans le respect de cette licence.
+
+════════════════════════════════════════════════════════════════
+                  CE QUE VOUS NE POUVEZ PAS FAIRE
+════════════════════════════════════════════════════════════════
+
+✘  VOUS APPROPRIER ce projet ou toute version dérivée comme
+   étant votre propre création originale. L'auteur original
+   est et restera lulunoel.
+
+✘  SUPPRIMER ou modifier les mentions de droits d'auteur,
+   de licence ou d'attribution présentes dans les fichiers
+   source, binaires ou toute distribution.
+
+✘  REDISTRIBUER ce logiciel ou un dérivé en prétendant
+   en être l'auteur principal, ou en effaçant le crédit
+   dû à lulunoel.
+
+✘  VENDRE ce logiciel ou toute version dérivée sans
+   l'accord écrit explicite de lulunoel.
+
+✘  UTILISER le nom "FarmHelper", le nom "lulunoel" ou tout
+   identifiant associé pour promouvoir un produit dérivé
+   sans autorisation préalable.
+
+════════════════════════════════════════════════════════════════
+                    OBLIGATIONS D'ATTRIBUTION
+════════════════════════════════════════════════════════════════
+
+Toute redistribution de ce logiciel, modifiée ou non, DOIT :
+
+  1. Conserver ce fichier LICENSE intact et lisible.
+
+  2. Mentionner clairement dans la documentation et/ou
+     l'interface du logiciel :
+     « Basé sur FarmHelper, créé par lulunoel »
+     avec un lien vers https://github.com/lulunoel/FarmHelper
+
+  3. Indiquer les modifications apportées par rapport
+     au projet original, si des changements ont été effectués.
+
+════════════════════════════════════════════════════════════════
+                    CONTRIBUTIONS
+════════════════════════════════════════════════════════════════
+
+En soumettant une contribution (pull request, patch, suggestion)
+au projet original, vous acceptez que :
+
+  - Votre contribution soit intégrée sous cette même licence.
+  - lulunoel conserve le droit de l'accepter, la refuser
+    ou la modifier.
+  - Vous serez crédité comme contributeur dans le projet,
+    mais lulunoel reste l'auteur et propriétaire du projet.
+
+════════════════════════════════════════════════════════════════
+                    ABSENCE DE GARANTIE
+════════════════════════════════════════════════════════════════
+
+CE LOGICIEL EST FOURNI "TEL QUEL", SANS GARANTIE D'AUCUNE SORTE,
+EXPRESSE OU IMPLICITE. L'AUTEUR NE SAURAIT ÊTRE TENU RESPONSABLE
+DE TOUT DOMMAGE DIRECT OU INDIRECT LIÉ À L'UTILISATION DE CE
+LOGICIEL.
+
+════════════════════════════════════════════════════════════════
+
+Pour toute question concernant cette licence ou pour demander
+une autorisation spéciale, contactez lulunoel via GitHub :
+https://github.com/lulunoel
+
+FarmHelper — Copyright (c) 2026 lulunoel
