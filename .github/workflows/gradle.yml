@@ -3,7 +3,7 @@ name: Build FarmHelper
 on:
   push:
     tags:
-      - 'v*'  # Se déclenche uniquement quand tu push un tag genre v1.0.0
+      - 'v*'
 
 jobs:
   build:
